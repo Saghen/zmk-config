@@ -28,10 +28,10 @@
             //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 
             bindings = <
-&kp PRINTSCREEN  &kp Q  &kp W  &kp E   &kp R   &kp T                                                                  &kp Y   &kp U   &kp I      &kp O      &kp P       &kp BSLH
-&kp LEFT_META    &kp A  &kp S  &kp D   &kp F   &kp G                                                                  &kp H   &kp J   &kp K      &kp L      &kp SEMI    &kp SQT
-&kp LSHFT        &kp Z  &kp X  &kp C   &kp V   &kp B         &trans     &kp TAB       &kp LS(TAB)      &trans         &kp N   &kp M   &kp COMMA  &kp SLASH  &kp PERIOD  &kp GRAVE
-                               &trans  &trans  &kp LEFT_ALT  &kp SPACE  &lt 1 ESCAPE  &mt LCTRL ENTER  &kp BACKSPACE  &trans  &trans  &trans
+&kp MINUS      &kp Q  &kp W  &kp E   &kp R   &kp T                                                                  &kp Y   &kp U   &kp I      &kp O      &kp P       &kp BSLH
+&kp LEFT_META  &kp A  &kp S  &kp D   &kp F   &kp G                                                                  &kp H   &kp J   &kp K      &kp L      &kp SEMI    &kp SQT
+&kp LSHFT      &kp Z  &kp X  &kp C   &kp V   &kp B         &trans     &kp TAB       &kp LS(TAB)      &trans         &kp N   &kp M   &kp COMMA  &kp SLASH  &kp PERIOD  &kp GRAVE
+                             &trans  &trans  &kp LEFT_ALT  &kp SPACE  &lt 1 ESCAPE  &mt LCTRL ENTER  &kp BACKSPACE  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -45,10 +45,10 @@
             //                       |      |      |      |      |      |      |      |      |      |      |      |      |
 
             bindings = <
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0        &kp EQUAL                                     &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp LEFT_BRACE   &kp MINUS  &trans  &trans
-&trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EXCL      &kp DOLLAR                                    &kp LEFT_ARROW         &kp DOWN           &kp UP_ARROW     &kp RIGHT  &trans  &trans
-&trans  &kp N7        &kp N8        &kp N9        &kp QUESTION  &kp PERCENT   &trans  &trans  &trans  &trans  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp UNDER  &trans  &tog 2
-                                    &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &trans  &trans  &kp C_PREVIOUS         &kp C_PLAY_PAUSE   &kp C_NEXT
+&kp PRINTSCREEN  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0        &kp EQUAL                                     &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp LEFT_BRACE   &kp MINUS  &trans  &trans
+&trans           &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp EXCL      &kp DOLLAR                                    &kp LEFT_ARROW         &kp DOWN           &kp UP_ARROW     &kp RIGHT  &trans  &trans
+&trans           &kp N7        &kp N8        &kp N9        &kp QUESTION  &kp PERCENT   &trans  &trans  &trans  &trans  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp UNDER  &trans  &tog 2
+                                             &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &trans  &trans  &kp C_PREVIOUS         &kp C_PLAY_PAUSE   &kp C_NEXT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
