@@ -49,8 +49,6 @@
 &kp LEFT_SHIFT  &kp Z  &kp X  &kp C   &kp V   &kp B         &trans     &kp TAB  &kp LS(TAB)  &trans         &kp N      &kp M   &kp COMMA  &kp PERIOD  &kp SLASH  &kp LCTRL
                               &trans  &trans  &kp LEFT_ALT  &kp SPACE  &mo 1    &kp ENTER    &kp BACKSPACE  &kp MINUS  &trans  &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         function {
@@ -66,8 +64,6 @@
 &trans           &kp N7        &kp N8        &kp N9        &kp CARET     &kp ASTERISK  &trans  &trans  &kp HASH  &kp DOLLAR    &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp BSLH   &trans  &tog 3
                                              &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &kp EXCL  &kp QUESTION  &kp K_PREV             &kp K_PLAY_PAUSE   &kp K_NEXT
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         window_management {
