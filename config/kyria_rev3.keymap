@@ -17,6 +17,16 @@
  */
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        window {
+            bindings = <&kp LGUI>;
+            key-positions = <24>;
+            layers = <0 2>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
