@@ -22,8 +22,14 @@
 
         window {
             bindings = <&kp LGUI>;
+            key-positions = <12>;
+            layers = <0 2>;
+        };
+
+        window-gaming {
+            bindings = <&kp LEFT_GUI>;
             key-positions = <24>;
-            layers = <0 2 3>;
+            layers = <3>;
         };
     };
 
