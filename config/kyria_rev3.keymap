@@ -56,10 +56,10 @@
 
         window_management {
             bindings = <
-&trans  &kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)  &kp LG(T)                                                                 &kp LG(Y)  &kp LG(U)  &kp LG(I)  &kp LG(O)  &kp LG(P)  &trans
-&trans  &kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)  &kp LG(G)                                                                 &kp LG(H)  &kp LG(J)  &kp LG(K)  &kp LG(L)  &trans     &trans
-&trans  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)  &trans         &kp LG(NUMBER_2)  &kp LG(N4)  &kp LG(NUMBER_6)  &kp LG(N)  &kp LG(M)  &trans     &trans     &trans     &trans
-                              &trans     &trans     &kp LALT   &kp LG(SPACE)  &kp LG(N1)        &kp LG(N3)  &kp LG(N5)        &trans     &trans     &trans
+&trans         &kp LG(Q)  &kp LG(W)  &kp LG(E)  &kp LG(R)  &kp LG(T)                                                                 &kp LG(Y)  &kp LG(U)  &kp LG(I)  &kp LG(O)  &kp LG(P)  &trans
+&trans         &kp LG(A)  &kp LG(S)  &kp LG(D)  &kp LG(F)  &kp LG(G)                                                                 &kp LG(H)  &kp LG(J)  &kp LG(K)  &kp LG(L)  &trans     &trans
+&kp LEFT_META  &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(B)  &trans         &kp LG(NUMBER_2)  &kp LG(N4)  &kp LG(NUMBER_6)  &kp LG(N)  &kp LG(M)  &trans     &trans     &trans     &trans
+                                     &trans     &trans     &kp LALT   &kp LG(SPACE)  &kp LG(N1)        &kp LG(N3)  &kp LG(N5)        &trans     &trans     &trans
             >;
         };
 
