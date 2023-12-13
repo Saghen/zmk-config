@@ -19,18 +19,6 @@
 / {
     combos {
         compatible = "zmk,combos";
-
-        window {
-            bindings = <&kp LGUI>;
-            key-positions = <12>;
-            layers = <0 3>;
-        };
-
-        window-gaming {
-            bindings = <&kp LEFT_GUI>;
-            key-positions = <25>;
-            layers = <4>;
-        };
     };
 
     macros {
