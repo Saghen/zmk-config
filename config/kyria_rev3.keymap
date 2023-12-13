@@ -25,7 +25,8 @@
         window_management: window_management {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_META &mo 3>;
+            bindings = <&kp LEFT_META &mo 3>, <&macro_press>;
+
             label = "WINDOW_MANAGEMENT";
         };
     };
