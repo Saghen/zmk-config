@@ -59,10 +59,10 @@
             //                       |      |      |      |      |      |      |      |      |      |      |      |      |
 
             bindings = <
-&kp PRINTSCREEN  &kp EQUAL  &kp N1  &kp N2  &kp N3     &kp NUMBER_0                                              &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans     &trans         &trans
-&mo 2            &kp CARET  &kp N4  &kp N5  &kp N6     &kp DOLLAR                                                &kp LEFT_ARROW         &kp DOWN           &kp UP_ARROW     &kp RIGHT  &trans         &trans
-&kp LEFT_SHIFT   &kp HASH   &kp N7  &kp N8  &kp N9     &kp MINUS     &kp LC(Z)  &kp LC(Y)  &trans    &trans      &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp LEFT_BRACE   &trans     &kp BACKSLASH  &trans
-                                    &tog 4  &kp LC(X)  &kp LC(C)     &kp LC(V)  &trans     &kp EXCL  &kp DELETE  &kp K_PREV             &kp K_PLAY_PAUSE   &kp K_NEXT
+&kp PRINTSCREEN  &kp N1  &kp N2  &kp N3  &kp N0     &kp EQUAL                                             &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &trans     &trans         &trans
+&mo 2            &kp N4  &kp N5  &kp N6  &kp EXCL   &kp AT                                                &kp LEFT_ARROW         &kp DOWN           &kp UP_ARROW     &kp RIGHT  &trans         &trans
+&kp LEFT_SHIFT   &kp N7  &kp N8  &kp N9  &kp CARET  &kp DOLLAR  &tog 4     &trans  &trans     &trans      &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp LEFT_BRACE   &trans     &kp BACKSLASH  &trans
+                                 &trans  &kp LC(X)  &kp LC(C)   &kp LC(V)  &trans  &kp MINUS  &kp DELETE  &kp K_PREV             &kp K_PLAY_PAUSE   &kp K_NEXT
             >;
         };
 
