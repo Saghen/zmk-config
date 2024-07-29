@@ -44,10 +44,10 @@
             //                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 
             bindings = <
-&kp LEFT_ALT        &kp Q  &kp W  &kp F       &kp P   &kp B                                                    &kp J  &kp L             &kp U       &kp Y     &kp COMMA         &kp PERIOD
-&window_management  &kp A  &kp R  &kp S       &kp T   &kp G                                                    &kp M  &kp N             &kp E       &kp I     &kp O             &kp TAB
-&kp LEFT_SHIFT      &kp Z  &kp X  &kp C       &kp D   &kp V       &trans     &trans  &trans     &trans         &kp K  &kp H             &kp MINUS   &kp SEMI  &kp SINGLE_QUOTE  &kp LCTRL
-                                  &kp K_PREV  &trans  &kp ESCAPE  &kp SPACE  &mo 1   &kp ENTER  &kp BACKSPACE  &mo 2  &kp K_PLAY_PAUSE  &kp K_NEXT
+&kp ESCAPE          &kp Q  &kp W  &kp F       &kp P   &kp B                                                      &kp J  &kp L             &kp U       &kp Y     &kp COMMA         &kp PERIOD
+&window_management  &kp A  &kp R  &kp S       &kp T   &kp G                                                      &kp M  &kp N             &kp E       &kp I     &kp O             &kp TAB
+&kp LEFT_SHIFT      &kp Z  &kp X  &kp C       &kp D   &kp V         &trans     &trans  &trans     &trans         &kp K  &kp H             &kp MINUS   &kp SEMI  &kp SINGLE_QUOTE  &kp LCTRL
+                                  &kp K_PREV  &trans  &kp LEFT_ALT  &kp SPACE  &mo 1   &kp ENTER  &kp BACKSPACE  &mo 2  &kp K_PLAY_PAUSE  &kp K_NEXT
             >;
         };
 
