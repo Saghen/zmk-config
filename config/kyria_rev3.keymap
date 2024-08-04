@@ -59,10 +59,10 @@
             //                       |      |      |      |      |      |      |      |      |      |      |      |      |
 
             bindings = <
-&kp PRINTSCREEN  &kp PERCENT  &kp POUND  &kp ASTERISK   &kp EQUAL    &kp PLUS                                    &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp LEFT_BRACE   &trans     &kp PIPE      &kp BACKSLASH
-&kp ESCAPE       &kp CARET    &kp EXCL   &kp AMPERSAND  &kp DOLLAR   &kp AT                                      &kp LEFT_ARROW         &kp DOWN           &kp UP_ARROW     &kp RIGHT  &kp QUESTION  &kp SLASH
-&kp LEFT_SHIFT   &kp AT       &kp K_CUT  &kp K_COPY     &kp K_PASTE  &kp K_REDO  &tog 4  &trans  &trans  &trans  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp TILDE  &kp GRAVE     &kp LCTRL
-                                         &trans         &trans       &trans      &trans  &trans  &trans  &trans  &trans                 &trans             &trans
+&kp PRINTSCREEN  &kp PERCENT  &kp AT     &kp EXCL    &kp EQUAL    &kp PLUS                                    &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp LEFT_BRACE   &kp AMPERSAND  &kp PIPE      &kp BACKSLASH
+&kp ESCAPE       &kp CARET    &kp POUND  &kp STAR    &kp DOLLAR   &kp AT                                      &kp LEFT_ARROW         &kp DOWN           &kp UP_ARROW     &kp RIGHT      &kp QUESTION  &kp SLASH
+&kp LEFT_SHIFT   &trans       &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp K_REDO  &tog 4  &trans  &trans  &trans  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp TILDE      &kp GRAVE     &kp LCTRL
+                                         &trans      &trans       &trans      &trans  &trans  &trans  &trans  &trans                 &trans             &trans
             >;
         };
 
